@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+  <rect width="1280" height="760" fill="#f6f8fb"/>
+  <text x="640" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2937">RAGForge System Architecture</text>
+
+  <rect x="90" y="90" width="1100" height="95" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="640" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">Access Layer</text>
+  <rect x="150" y="138" width="180" height="34" rx="10" fill="#ffffff" stroke="#60a5fa"/>
+  <rect x="390" y="138" width="180" height="34" rx="10" fill="#ffffff" stroke="#60a5fa"/>
+  <rect x="630" y="138" width="180" height="34" rx="10" fill="#ffffff" stroke="#60a5fa"/>
+  <rect x="870" y="138" width="180" height="34" rx="10" fill="#ffffff" stroke="#60a5fa"/>
+  <text x="240" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Web Console</text>
+  <text x="480" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">CLI / Shell</text>
+  <text x="720" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">MCP Client</text>
+  <text x="960" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Agent Workflow</text>
+
+  <rect x="90" y="225" width="1100" height="110" rx="18" fill="#e0f2fe" stroke="#0891b2" stroke-width="2"/>
+  <text x="640" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#155e75">Service Layer</text>
+  <rect x="150" y="278" width="230" height="38" rx="10" fill="#ffffff" stroke="#22d3ee"/>
+  <rect x="430" y="278" width="230" height="38" rx="10" fill="#ffffff" stroke="#22d3ee"/>
+  <rect x="710" y="278" width="230" height="38" rx="10" fill="#ffffff" stroke="#22d3ee"/>
+  <text x="265" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Flask API</text>
+  <text x="545" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Task Executor</text>
+  <text x="825" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">System Config / Auth</text>
+
+  <rect x="90" y="375" width="520" height="250" rx="18" fill="#ecfccb" stroke="#65a30d" stroke-width="2"/>
+  <text x="350" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#3f6212">Knowledge Processing Layer</text>
+  <rect x="130" y="440" width="200" height="44" rx="12" fill="#ffffff" stroke="#84cc16"/>
+  <rect x="370" y="440" width="200" height="44" rx="12" fill="#ffffff" stroke="#84cc16"/>
+  <rect x="130" y="510" width="200" height="44" rx="12" fill="#ffffff" stroke="#84cc16"/>
+  <rect x="370" y="510" width="200" height="44" rx="12" fill="#ffffff" stroke="#84cc16"/>
+  <text x="230" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">deepdoc</text>
+  <text x="470" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">minerU</text>
+  <text x="230" y="538" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">RAG Retrieval</text>
+  <text x="470" y="538" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">GraphRAG / Agentic Reasoning</text>
+
+  <rect x="670" y="375" width="520" height="250" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="930" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#92400e">Infrastructure Layer</text>
+  <rect x="710" y="440" width="200" height="44" rx="12" fill="#ffffff" stroke="#f59e0b"/>
+  <rect x="950" y="440" width="200" height="44" rx="12" fill="#ffffff" stroke="#f59e0b"/>
+  <rect x="710" y="510" width="200" height="44" rx="12" fill="#ffffff" stroke="#f59e0b"/>
+  <rect x="950" y="510" width="200" height="44" rx="12" fill="#ffffff" stroke="#f59e0b"/>
+  <text x="810" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">MySQL / DM</text>
+  <text x="1050" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Elasticsearch / Infinity</text>
+  <text x="810" y="538" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Redis / MinIO</text>
+  <text x="1050" y="538" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">LLM / Vision Models</text>
+
+  <line x1="640" y1="185" x2="640" y2="225" stroke="#64748b" stroke-width="3"/>
+  <line x1="640" y1="335" x2="350" y2="375" stroke="#64748b" stroke-width="3"/>
+  <line x1="640" y1="335" x2="930" y2="375" stroke="#64748b" stroke-width="3"/>
+</svg>

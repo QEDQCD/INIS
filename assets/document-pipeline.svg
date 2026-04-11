@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+  <rect width="1400" height="360" fill="#f8fafc"/>
+  <text x="700" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Document Processing Pipeline</text>
+
+  <rect x="40" y="120" width="160" height="90" rx="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <rect x="250" y="120" width="180" height="90" rx="18" fill="#e0f2fe" stroke="#0891b2" stroke-width="2"/>
+  <rect x="480" y="120" width="180" height="90" rx="18" fill="#ecfccb" stroke="#65a30d" stroke-width="2"/>
+  <rect x="710" y="120" width="180" height="90" rx="18" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <rect x="940" y="120" width="180" height="90" rx="18" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <rect x="1170" y="120" width="180" height="90" rx="18" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+
+  <text x="120" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Raw Files</text>
+  <text x="120" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#374151">PDF / Office / Images</text>
+
+  <text x="340" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">deepdoc</text>
+  <text x="340" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#374151">OCR / Layout / TSR</text>
+
+  <text x="570" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">minerU</text>
+  <text x="570" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#374151">Metadata / Directory</text>
+
+  <text x="800" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">task_executor</text>
+  <text x="800" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#374151">Chunk / Tag / Index</text>
+
+  <text x="1030" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">RAG / GraphRAG</text>
+  <text x="1030" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#374151">Retrieve / Rerank / Reason</text>
+
+  <text x="1260" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f2937">Delivery</text>
+  <text x="1260" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#374151">API / Web / MCP / CLI</text>
+
+  <line x1="200" y1="165" x2="250" y2="165" stroke="#64748b" stroke-width="4"/>
+  <polygon points="250,165 238,158 238,172" fill="#64748b"/>
+  <line x1="430" y1="165" x2="480" y2="165" stroke="#64748b" stroke-width="4"/>
+  <polygon points="480,165 468,158 468,172" fill="#64748b"/>
+  <line x1="660" y1="165" x2="710" y2="165" stroke="#64748b" stroke-width="4"/>
+  <polygon points="710,165 698,158 698,172" fill="#64748b"/>
+  <line x1="890" y1="165" x2="940" y2="165" stroke="#64748b" stroke-width="4"/>
+  <polygon points="940,165 928,158 928,172" fill="#64748b"/>
+  <line x1="1120" y1="165" x2="1170" y2="165" stroke="#64748b" stroke-width="4"/>
+  <polygon points="1170,165 1158,158 1158,172" fill="#64748b"/>
+
+  <text x="700" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">Complex document understanding is converted into structured, searchable and answerable knowledge assets.</text>
+</svg>
